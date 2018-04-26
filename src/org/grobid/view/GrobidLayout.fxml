@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--导入JavaFXML类-->
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<!--布局控件BorderPane，fx:controller属性用于声明事件处理的Controller，值为Controller类的类全名-->
+<!--xmlns用于声明默认命名空间，这里的声明随着你安装的Java JDK版本号的不同可以不同，但是最好不要比你安装的JDK版本高-->
+
+<VBox spacing="7" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.grobid.controller.GrobidController">
+
+    <!--<padding>-->
+    <!--<Insets topRightBottomLeft="7"/>-->
+    <!--</padding>-->
+    <padding>
+        <Insets bottom="10" left="20" right="20" top="10"/>
+    </padding>
+    <BorderPane>
+        <center>
+            <Text text="欢迎使用科技文档逻辑结构抽取及训练系统">
+                <font>
+                    <Font size="22.0"/>
+                </font>
+            </Text>
+        </center>
+
+        <bottom>
+            <TextFlow>
+                <Text text="        科技文档逻辑结构自动抽取系统，是一个机器学习库，可以用于提取、解析和重新构造原始文档，例如PDF到结构化的TEI编码文档，聚焦中文科技文献。此外，还可以针对有明显规则格式的其他文档进行定制训练，重新构造该抽取系统。 "/>
+            </TextFlow>
+        </bottom>
+
+    </BorderPane>
+
+    <TabPane VBox.vgrow="ALWAYS">
+        <padding>
+            <Insets topRightBottomLeft="7"/>
+        </padding>
+        <Tab closable="false" text="示例">
+            <BorderPane>
+                <top>
+                    <HBox alignment="BASELINE_LEFT" spacing="7">
+                        <padding>
+                            <Insets top="7"/>
+                        </padding>
+                        <Button onAction="#openFile" text="打开文件"/>
+                        <TextField fx:id="inputPDF" HBox.hgrow="ALWAYS"/>
+                        <ChoiceBox value="头部解析">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="头部解析"/>
+                                    <String fx:value="全文解析"/>
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                        <Button onAction="#processPDF" text="运行"/>
+                    </HBox>
+                </top>
+
+                <center>
+                    <TextArea fx:id="outputTEL" text="输出TEL编码格式xml文档" VBox.vgrow="ALWAYS"/>
+                </center>
+            </BorderPane>
+        </Tab>
+
+
+        <Tab closable="false" text="批处理">
+            <VBox>
+                <padding>
+                    <Insets topRightBottomLeft="7"/>
+                </padding>
+                <Button onAction="#openFile" text="选择论文目录"/>
+                <TextField/>
+                <ChoiceBox>
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="头部解析"/>
+                            <String fx:value="全文解析"/>
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+                <Button text="选择输出目录"/>
+                <TextField/>
+            </VBox>
+
+        </Tab>
+    </TabPane>
+
+</VBox>
