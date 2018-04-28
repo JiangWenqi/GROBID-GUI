@@ -720,7 +720,8 @@ public class FullTextParser extends AbstractParser {
            	// SEGMENTATION MODEL
             documentSource = DocumentSource.fromPdf(inputFile, -1, -1, true, true, true);
             Document doc = new Document(documentSource);
-            doc.addTokenizedDocument(GrobidAnalysisConfig.defaultInstance());
+            doc.addTokenizedDocument(GrobidAnalysisConfig.defaultInstance());//TODO tokenized 配置了解
+
 
             if (doc.getBlocks() == null) {
                 throw new Exception("PDF parsing resulted in empty content");

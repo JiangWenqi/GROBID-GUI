@@ -2,11 +2,9 @@
 
 <!--导入JavaFXML类-->
 
-<?import java.lang.String?>
-<?import javafx.collections.FXCollections?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextArea?>
@@ -21,7 +19,7 @@
 <!--布局控件BorderPane，fx:controller属性用于声明事件处理的Controller，值为Controller类的类全名-->
 <!--xmlns用于声明默认命名空间，这里的声明随着你安装的Java JDK版本号的不同可以不同，但是最好不要比你安装的JDK版本高-->
 
-<VBox spacing="7" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+<VBox spacing="7" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="org.grobid.controller.GrobidController">
 
     <!--<padding>-->
@@ -60,15 +58,15 @@
                         </padding>
                         <Button onAction="#openFile" text="打开文件"/>
                         <TextField fx:id="inputPDF" HBox.hgrow="ALWAYS"/>
-                        <ChoiceBox value="头部解析">
-                            <items>
-                                <FXCollections fx:factory="observableArrayList">
-                                    <String fx:value="头部解析"/>
-                                    <String fx:value="全文解析"/>
-                                </FXCollections>
-                            </items>
-                        </ChoiceBox>
-                        <Button onAction="#processPDF" text="运行"/>
+                        <!--<ChoiceBox value="头部解析">-->
+                        <!--<items>-->
+                        <!--<FXCollections fx:factory="observableArrayList">-->
+                        <!--<String fx:value="头部解析"/>-->
+                        <!--<String fx:value="全文解析"/>-->
+                        <!--</FXCollections>-->
+                        <!--</items>-->
+                        <!--</ChoiceBox>-->
+                        <Button onAction="#processPDFHedaer" text="运行"/>
                     </HBox>
                 </top>
 
@@ -84,18 +82,20 @@
                 <padding>
                     <Insets topRightBottomLeft="7"/>
                 </padding>
-                <Button onAction="#openFile" text="选择论文目录"/>
-                <TextField/>
-                <ChoiceBox>
-                    <items>
-                        <FXCollections fx:factory="observableArrayList">
-                            <String fx:value="头部解析"/>
-                            <String fx:value="全文解析"/>
-                        </FXCollections>
-                    </items>
-                </ChoiceBox>
-                <Button text="选择输出目录"/>
-                <TextField/>
+
+                <HBox>
+                    <Button onAction="#openInputDir" text="选择论文目录"/>
+                    <TextField fx:id="inputDir" HBox.hgrow="ALWAYS"/>
+                </HBox>
+                <HBox>
+                    <Button onAction="#openOutputDir" text="选择输出目录"/>
+                    <TextField fx:id="outputDir" HBox.hgrow="ALWAYS"/>
+                </HBox>
+                <RadioButton fx:id="consolidateHeader" mnemonicParsing="false" text="是否包头部信息"/>
+                <RadioButton fx:id="consolidateCitations" mnemonicParsing="false" text="是否包引用信息"/>
+
+                <Button onAction="#processPDFDir" text="批处理"/>
+
             </VBox>
 
         </Tab>

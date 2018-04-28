@@ -24,9 +24,15 @@ public class WapitiTrainer implements GenericTrainer {
     @Override
     public void train(File template, File trainingData, File outputModel, int numThreads, GrobidModel model) {
 		System.out.println("\tepsilon: " + epsilon);
-		System.out.println("\twindow: " + window);
-        System.out.println("\tnb max iterations: " + nbMaxIterations);
+		System.out.println("\twindow: " + window); // 窗口大小（前二十个词，后二十个词）
+        System.out.println("\tnb max iterations: " + nbMaxIterations); //最大迭代次数
 		System.out.println("\tnb threads: " + numThreads);
+
+//        System.out.println("template : " + template.getAbsolutePath() +" trainingData:"+trainingData.getAbsolutePath()+" outputModel:"+ outputModel.getAbsolutePath()+ "--nthread " + numThreads +
+////       		" --algo sgd-l1" +
+//                " -e " + BigDecimal.valueOf(epsilon).toPlainString() +
+//                " -w " + window +
+//                " -i " + nbMaxIterations);
         WapitiModel.train(template, trainingData, outputModel, "--nthread " + numThreads +
 //       		" --algo sgd-l1" +
 			" -e " + BigDecimal.valueOf(epsilon).toPlainString() +

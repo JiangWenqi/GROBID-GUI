@@ -25,7 +25,7 @@ public class GrobidAplication extends Application {
         primaryStage = stage;
         primaryStage.setTitle("中文论文逻辑结构抽取及训练系统");
         initRootLayout();
-        showGrobid();
+        showGrobidLayout();
     }
 
     /**
@@ -51,7 +51,7 @@ public class GrobidAplication extends Application {
     /**
      * Shows the Grobid  inside the root layout.
      */
-    public void showGrobid() {
+    public void showGrobidLayout() {
         try {
             // Load Grobid Layout
             FXMLLoader loader = new FXMLLoader();
@@ -65,6 +65,8 @@ public class GrobidAplication extends Application {
             e.printStackTrace();
         }
     }
+
+
 
     /**
      * Returns the main stage.
