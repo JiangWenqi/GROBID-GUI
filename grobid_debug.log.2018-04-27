@@ -1,0 +1,740 @@
+[WARN ]2018-04-27 20:48:57,918 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:48:57,922 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:48:57,922 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:48:57,923 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:48:57,923 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:48:57,924 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:48:57,924 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:48:57,931 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:48:57,931 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:48:57,935 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:48:57,936 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:48:57,937 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:48:57,938 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:48:57,939 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:48:57,960 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:48:58,002 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:48:58,003 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:48:58,004 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:48:58,102 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 220 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,103 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 221 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,104 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 222 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,105 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 223 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,106 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 224 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,107 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 225 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,107 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 226 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,109 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 227 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,110 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 228 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,111 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 229 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,112 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 230 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,113 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 231 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,113 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 232 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,114 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 233 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,117 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 234 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,118 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 235 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,119 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 236 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,119 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 237 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,120 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 238 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,121 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 239 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,121 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 240 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:48:58,122 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / too many synchronization issues, file not used in training data and to be fixed!
+[WARN ]2018-04-27 20:50:33,790 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:50:33,794 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:50:33,795 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:50:33,795 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:50:33,796 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:50:33,796 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:50:33,797 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:50:33,804 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:50:33,805 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:50:33,809 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:50:33,811 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:50:33,812 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:50:33,813 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:50:33,814 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:50:33,834 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:50:33,867 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:50:33,868 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:50:33,868 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:50:33,967 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 220 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,968 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 221 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,969 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 222 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,970 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 223 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,970 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 224 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,971 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 225 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,972 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 226 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,973 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 227 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,974 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 228 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,974 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 229 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,975 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 230 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,976 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 231 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,977 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 232 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,978 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 233 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,982 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 234 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,983 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 235 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,984 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 236 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,984 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 237 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,985 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 238 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,986 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 239 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,987 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 240 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:50:33,988 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / too many synchronization issues, file not used in training data and to be fixed!
+[WARN ]2018-04-27 20:51:00,262 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:51:00,266 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:51:00,267 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:51:00,267 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:51:00,267 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:51:00,268 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:51:00,268 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:51:00,276 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:51:00,277 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:51:00,280 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:51:00,282 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:51:00,283 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:51:00,284 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:51:00,286 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:51:00,312 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:51:00,347 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:51:00,348 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:51:00,349 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:51:00,478 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 220 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,480 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 221 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,481 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 222 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,482 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 223 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,483 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 224 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,484 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 225 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,485 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 226 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,486 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 227 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,487 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 228 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,490 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 229 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,491 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 230 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,492 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 231 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,493 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 232 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,494 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 233 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,494 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 234 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,495 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 235 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,496 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 236 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,497 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 237 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,498 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 238 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,499 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 239 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,500 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 240 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:51:00,500 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / too many synchronization issues, file not used in training data and to be fixed!
+[WARN ]2018-04-27 20:51:53,819 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:51:53,824 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:51:53,824 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:51:53,825 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:51:53,825 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:51:53,826 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:51:53,826 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:51:53,834 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:51:53,835 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:51:53,840 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:51:53,842 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:51:53,843 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:51:53,844 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:51:53,846 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:51:53,871 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:54:55,095 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:54:55,096 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:54:55,097 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:54:58,483 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:54:58,487 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:54:58,488 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:54:58,488 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:54:58,489 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:54:58,491 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:54:58,492 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:54:58,499 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:54:58,500 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:54:58,504 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:54:58,507 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:54:58,508 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:54:58,509 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:54:58,511 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:54:58,534 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:54:58,576 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:54:58,577 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:54:58,578 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:54:58,692 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 220 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,693 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 221 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,694 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 222 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,695 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 223 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,696 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 224 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,696 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 225 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,697 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 226 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,698 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 227 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,699 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 228 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,699 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 229 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,700 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 230 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,701 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 231 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,702 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 232 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,702 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 233 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,703 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 234 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,704 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 235 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,704 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 236 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,705 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 237 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,706 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 238 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,707 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 239 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,707 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 240 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:54:58,708 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / too many synchronization issues, file not used in training data and to be fixed!
+[WARN ]2018-04-27 20:55:58,645 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:55:58,650 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:55:58,650 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:55:58,650 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:55:58,651 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:55:58,652 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:55:58,658 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:55:58,666 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:55:58,666 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:55:58,671 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:55:58,673 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:55:58,673 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:55:58,675 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:55:58,676 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:55:58,702 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:56:06,514 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:56:14,500 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:56:42,997 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:57:08,038 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 220 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:57:08,039 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 221 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:57:08,039 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 222 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:57:08,040 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 223 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:57:08,041 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 224 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:57:08,042 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 225 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:57:09,391 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:57:09,395 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:57:09,396 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:57:09,396 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:57:09,397 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:57:09,397 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:57:09,398 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:57:09,405 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:57:09,405 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:57:09,411 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:57:09,413 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:57:09,414 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:57:09,415 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:57:09,417 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:57:09,441 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:57:13,113 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:57:44,129 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:09,494 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:58:57,028 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 20:58:57,032 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 20:58:57,032 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 20:58:57,033 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 20:58:57,033 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 20:58:57,033 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 20:58:57,034 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 20:58:57,040 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 20:58:57,040 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 20:58:57,043 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 20:58:57,045 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 20:58:57,046 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 20:58:57,048 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 20:58:57,050 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 20:58:57,071 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR013.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,096 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,097 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,097 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,149 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR002.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,151 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,152 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,152 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,265 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR005.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,267 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,268 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,269 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,286 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,299 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,300 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,303 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:58:57,348 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 220 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,349 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 221 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,349 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 222 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,350 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 223 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,350 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 224 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,350 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 225 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,351 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 226 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,351 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 227 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,352 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 228 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,352 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 229 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,353 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 230 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,353 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 231 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,353 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 232 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,354 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 233 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,354 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 234 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,355 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 235 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,355 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 236 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,356 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 237 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,356 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 238 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,357 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 239 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,357 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 240 : ，请在保险合同送达或寄达于您时书面签收 <body>
+
+[WARN ]2018-04-27 20:58:57,357 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) 安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.training.segmentation.tei.xml / too many synchronization issues, file not used in training data and to be fixed!
+[INFO ]2018-04-27 20:58:57,358 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR003.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,359 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,360 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,361 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,396 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR012.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,398 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,399 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,400 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,412 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR004.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,415 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,416 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,416 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,418 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid attribute value for element div: type=footnote
+[ERROR]2018-04-27 20:58:57,418 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: node - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,427 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR015.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,429 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,429 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,430 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,443 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR007.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,444 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,445 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,445 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,463 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR008.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,464 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,465 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,465 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,485 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR016.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,486 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,487 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,488 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,524 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR011.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,526 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,526 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,527 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,527 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid attribute name for element div: type
+[INFO ]2018-04-27 20:58:57,562 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR009.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,564 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,565 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,566 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,577 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR006.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,579 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,580 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,580 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,606 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR010.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,607 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,607 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,608 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[INFO ]2018-04-27 20:58:57,653 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: CAR001.training.segmentation.tei.xml
+[ERROR]2018-04-27 20:58:57,654 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,655 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 20:58:57,655 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
+[WARN ]2018-04-27 20:58:57,657 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) CAR001.training.segmentation.tei.xml / Segmentation trainer: TEI and raw file unsynchronized at raw line 28 : 实现夏季制冷与冬季采暖，特别适用于夏热冬冷地 <body>
+
+[WARN ]2018-04-27 21:01:52,936 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:01:52,941 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:01:52,941 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:01:52,942 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:01:52,942 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:01:52,942 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:01:52,943 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:01:52,952 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:01:52,953 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:01:52,957 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:01:52,960 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:01:52,960 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:01:52,963 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:01:52,965 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[WARN ]2018-04-27 21:02:05,473 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:02:05,476 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:02:05,477 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:02:05,477 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:02:05,478 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:02:05,478 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:02:05,480 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:02:05,489 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:02:05,490 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:02:05,494 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:02:05,496 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:02:05,497 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:02:05,498 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:02:05,500 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[WARN ]2018-04-27 21:04:20,261 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:04:20,265 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:04:20,265 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:04:20,266 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:04:20,266 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:04:20,267 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:04:20,267 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:04:20,275 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:04:20,276 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:04:20,280 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:04:20,282 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:04:20,283 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:04:20,284 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:04:20,286 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[WARN ]2018-04-27 21:06:13,831 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:06:13,840 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:06:13,840 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:06:13,841 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:06:13,842 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:06:13,842 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:06:13,843 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:06:13,852 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:06:13,853 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:06:13,858 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:06:13,860 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:06:13,861 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:06:13,862 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:06:13,864 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[WARN ]2018-04-27 21:08:15,699 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:08:15,705 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:08:15,707 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:08:15,708 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:08:15,708 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:08:15,709 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:08:15,709 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:08:15,717 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:08:15,718 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:08:15,723 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:08:15,725 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:08:15,726 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:08:15,728 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:08:15,730 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 21:08:15,758 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) Processing: CAR001.training.fulltext.tei.xml
+[WARN ]2018-04-27 21:08:15,855 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 240 : 楼室内温湿度测点布置简图， <paragraph>
+
+[WARN ]2018-04-27 21:08:15,858 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 275 : 在 I-<paragraph>
+
+[WARN ]2018-04-27 21:08:15,870 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 460 : 小 <paragraph>
+
+[WARN ]2018-04-27 21:08:15,885 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 694 : 筑能耗与空调能耗， <paragraph>
+
+[WARN ]2018-04-27 21:08:15,886 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 697 : 可以看到，在系统运行时间段内，空调系统能耗为 <paragraph>
+
+[WARN ]2018-04-27 21:08:15,889 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 743 : 的空调冷负荷逐时变化图，从图中可以看到，建筑 <paragraph>
+
+[WARN ]2018-04-27 21:08:15,893 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR001.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 796 : - <paragraph>
+
+[INFO ]2018-04-27 21:08:15,907 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) Processing: CAR009.training.fulltext.tei.xml
+[WARN ]2018-04-27 21:08:15,932 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 124 : +LINE+ <paragraph>
+
+[WARN ]2018-04-27 21:08:15,941 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 222 : 可看出，板内流场速度分布随隔板长 I-<paragraph>
+
+[WARN ]2018-04-27 21:08:15,946 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 270 : 出，六种模型中，出口温度随隔板长度增长而降低。 <paragraph>
+
+[WARN ]2018-04-27 21:08:15,950 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 321 : 的三种 <paragraph>
+
+[WARN ]2018-04-27 21:08:15,953 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 364 : 70mm，肋片间距与肋高的比值（P <paragraph>
+
+[WARN ]2018-04-27 21:08:15,955 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 372 : 图 I-<figure>
+
+[WARN ]2018-04-27 21:08:15,961 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 464 : 其趋势是随着肋片间距增大而降低，即板内间距越 <paragraph>
+
+[WARN ]2018-04-27 21:08:15,970 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR009.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 580 : +LINE+ <paragraph>
+
+[INFO ]2018-04-27 21:08:15,980 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) Processing: CAR006.training.fulltext.tei.xml
+[WARN ]2018-04-27 21:08:15,999 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR006.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 217 : +LINE+ <paragraph>
+
+[WARN ]2018-04-27 21:08:16,000 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR006.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 219 : +LINE+ <paragraph>
+
+[WARN ]2018-04-27 21:08:16,012 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR006.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 420 : 量情况下，定频水泵和变频水泵各自的功耗情况。 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,018 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR006.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 610 : 1） I-<paragraph>
+
+[INFO ]2018-04-27 21:08:16,022 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) Processing: CAR003.training.fulltext.tei.xml
+[WARN ]2018-04-27 21:08:16,036 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR003.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 80 : 的人数与面积之比，得到人员密度值。 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,046 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR003.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 453 : 表 I-<table>
+
+[WARN ]2018-04-27 21:08:16,049 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR003.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 538 : 采用新风换气次数和总风量换气次数两个 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,056 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR003.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 697 : +LINE+ <paragraph>
+
+[INFO ]2018-04-27 21:08:16,075 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) Processing: CAR004.training.fulltext.tei.xml
+[WARN ]2018-04-27 21:08:16,085 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 121 : 式相变蓄热装置的技术原理图。由图可看出热管式 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,086 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 148 : 安捷伦数据采集仪通过 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,088 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 198 : 图 I-<figure>
+
+[WARN ]2018-04-27 21:08:16,090 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 261 : 时相变蓄 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,090 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 266 : +LINE+ <paragraph>
+
+[WARN ]2018-04-27 21:08:16,091 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 271 : 个测点随着热管的温降，其温差在 <paragraph>
+
+[WARN ]2018-04-27 21:08:16,097 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) CAR004.training.fulltext.tei.xml / Fulltext trainer: TEI and raw file unsynchronized at raw line 478 : +LINE+ <paragraph>
+
+[INFO ]2018-04-27 21:08:16,101 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) Processing: CAR010.training.fulltext.tei.xml
+[ERROR]2018-04-27 21:08:16,119 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesFulltext) An exception occured while running Grobid.
+org.xml.sax.SAXParseException; systemId: file:/Users/vinci/lib/grobid_insurance/grobid-home/../grobid-trainer/resources/dataset/fulltext/corpus/tei/CAR010.training.fulltext.tei.xml; lineNumber: 77; columnNumber: 77; 元素类型 "figure" 必须由匹配的结束标记 "</figure>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:328)
+	at org.grobid.trainer.FulltextTrainer.addFeaturesFulltext(FulltextTrainer.java:116)
+	at org.grobid.trainer.FulltextTrainer.createCRFPPData(FulltextTrainer.java:29)
+	at org.grobid.trainer.AbstractTrainer.train(AbstractTrainer.java:50)
+	at org.grobid.trainer.AbstractTrainer.runTraining(AbstractTrainer.java:178)
+	at org.grobid.Chinese.ChineseTrainer.main(ChineseTrainer.java:67)
+[WARN ]2018-04-27 21:13:38,855 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:13:38,859 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:13:38,859 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:13:38,859 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:13:38,860 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:13:38,860 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:13:38,861 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:13:38,869 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:13:38,869 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:13:38,873 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:13:38,876 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:13:38,876 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:13:38,878 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:13:38,879 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[DEBUG]2018-04-27 21:13:38,902 Thread:( main) Method:(org.grobid.core.analyzers.GrobidAnalyzer.getNewInstance) Get new instance of GrobidAnalyzer
+[INFO ]2018-04-27 21:13:38,905 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/fulltext/model.wapiti (size: 1888551)
+[DEBUG]2018-04-27 21:13:38,988 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:13:38,997 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/Nf6yXHsEkj.lxml]
+[DEBUG]2018-04-27 21:13:38,998 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/安联附加超级随心长期重大疾病保险_中德安联人寿[2017]疾病保险026号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/Nf6yXHsEkj.lxml]
+[DEBUG]2018-04-27 21:13:39,886 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:898ms
+[INFO ]2018-04-27 21:13:40,371 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/segmentation/model.wapiti (size: 3218685)
+[DEBUG]2018-04-27 21:13:40,535 Thread:( main) Method:(org.grobid.core.utilities.LanguageUtilities.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:13:40,543 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.getNewInstance) Get new instance of Lexicon
+[INFO ]2018-04-27 21:13:40,543 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.initDictionary) Initiating dictionary
+[INFO ]2018-04-27 21:13:40,543 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.initDictionary) End of Initialization of dictionary
+[INFO ]2018-04-27 21:13:40,543 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.initNames) Initiating names
+[INFO ]2018-04-27 21:13:40,544 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.initNames) End of initialization of names
+[INFO ]2018-04-27 21:13:40,999 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.initCountryCodes) Initiating country codes
+[INFO ]2018-04-27 21:13:41,000 Thread:( main) Method:(org.grobid.core.lexicon.Lexicon.initCountryCodes) End of initialization of country codes
+[INFO ]2018-04-27 21:13:42,443 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/table/model.wapiti (size: 1337339)
+[INFO ]2018-04-27 21:13:42,642 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/header/model.wapiti (size: 708740)
+[DEBUG]2018-04-27 21:13:43,070 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetectorFactory.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:13:43,099 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [no:0.5714284365100138, et:0.4285715634845176]
+[INFO ]2018-04-27 21:13:43,102 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/affiliation-address/model.wapiti (size: 2646298)
+[INFO ]2018-04-27 21:13:45,334 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/name/header/model.wapiti (size: 2225578)
+[INFO ]2018-04-27 21:13:45,558 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/name/citation/model.wapiti (size: 393118)
+[INFO ]2018-04-27 21:13:45,614 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/reference-segmenter/model.wapiti (size: 4829569)
+[INFO ]2018-04-27 21:13:46,217 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/citation/model.wapiti (size: 16235248)
+[DEBUG]2018-04-27 21:13:48,195 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:13:48,196 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/附加团体终身特定疾病保险_太平洋人寿[2017]疾病保险033号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/VaMwv6MGGp.lxml]
+[DEBUG]2018-04-27 21:13:48,196 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/附加团体终身特定疾病保险_太平洋人寿[2017]疾病保险033号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/VaMwv6MGGp.lxml]
+[DEBUG]2018-04-27 21:13:48,291 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:95ms
+[DEBUG]2018-04-27 21:13:48,551 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [en:0.8571389122417038, no:0.14286012803994858]
+[INFO ]2018-04-27 21:14:02,954 Thread:( main) Method:(org.grobid.core.jni.WapitiModel.init) Loading model: /Users/vinci/lib/grobid_insurance/grobid-home/models/date/model.wapiti (size: 102435)
+[DEBUG]2018-04-27 21:14:02,966 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:02,967 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/恒安标准附加富贵尊享重大疾病保险_恒安标准人寿[2016]疾病保险018号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/cTQc5fbB3w.lxml]
+[DEBUG]2018-04-27 21:14:02,967 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/恒安标准附加富贵尊享重大疾病保险_恒安标准人寿[2016]疾病保险018号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/cTQc5fbB3w.lxml]
+[DEBUG]2018-04-27 21:14:03,181 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:215ms
+[DEBUG]2018-04-27 21:14:03,843 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [en:0.9999942921543103]
+[DEBUG]2018-04-27 21:14:03,860 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:03,860 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/人保寿险团体长期重大疾病保险（D款）_人保寿险[2017]疾病保险032号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/6WhdBBg6R8.lxml]
+[DEBUG]2018-04-27 21:14:03,860 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/人保寿险团体长期重大疾病保险（D款）_人保寿险[2017]疾病保险032号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/6WhdBBg6R8.lxml]
+[DEBUG]2018-04-27 21:14:04,357 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:497ms
+[DEBUG]2018-04-27 21:14:05,020 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [zh-cn:0.9999983849347979]
+[DEBUG]2018-04-27 21:14:05,026 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:05,026 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中宏宏佑逸生重大疾病保险_中宏人寿[2017]疾病保险024号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/RbFBDVSuE7.lxml]
+[DEBUG]2018-04-27 21:14:05,026 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中宏宏佑逸生重大疾病保险_中宏人寿[2017]疾病保险024号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/RbFBDVSuE7.lxml]
+[DEBUG]2018-04-27 21:14:05,234 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:208ms
+[DEBUG]2018-04-27 21:14:05,788 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [en:0.9999959408612988]
+[DEBUG]2018-04-27 21:14:05,792 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:05,793 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/渤海人寿安康e生A款重大疾病保险_渤海人寿[2016]疾病保险032号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/CAdMkW7FFm.lxml]
+[DEBUG]2018-04-27 21:14:05,793 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/渤海人寿安康e生A款重大疾病保险_渤海人寿[2016]疾病保险032号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/CAdMkW7FFm.lxml]
+[DEBUG]2018-04-27 21:14:05,982 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:189ms
+[DEBUG]2018-04-27 21:14:06,304 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:06,304 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/昆仑健康保险股份有限公司健康保重大疾病保险_昆仑健康[2017]疾病保险046号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/MQHEbC78k2.lxml]
+[DEBUG]2018-04-27 21:14:06,305 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/昆仑健康保险股份有限公司健康保重大疾病保险_昆仑健康[2017]疾病保险046号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/MQHEbC78k2.lxml]
+[DEBUG]2018-04-27 21:14:06,470 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:166ms
+[DEBUG]2018-04-27 21:14:07,059 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [no:0.7142840715301475, et:0.2857150269325292]
+[DEBUG]2018-04-27 21:14:07,081 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:07,082 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/信美相互i健康多级保定期团体疾病保险_信美相互[2017]疾病保险006号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/wwjE3CGrU6.lxml]
+[DEBUG]2018-04-27 21:14:07,082 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/信美相互i健康多级保定期团体疾病保险_信美相互[2017]疾病保险006号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/wwjE3CGrU6.lxml]
+[DEBUG]2018-04-27 21:14:07,906 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:824ms
+[DEBUG]2018-04-27 21:14:08,811 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [zh-cn:0.9999974782718182]
+[DEBUG]2018-04-27 21:14:08,868 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:08,868 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/民生附加康健额外给付重大疾病保险_民生保险[2017]疾病保险016号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/TxQq4DnjDq.lxml]
+[DEBUG]2018-04-27 21:14:08,868 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/民生附加康健额外给付重大疾病保险_民生保险[2017]疾病保险016号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/TxQq4DnjDq.lxml]
+[DEBUG]2018-04-27 21:14:09,386 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:518ms
+[DEBUG]2018-04-27 21:14:10,073 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:10,073 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/平安附加智能星提前给付重大疾病保险（2017）_平安人寿[2017]疾病保险077号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/b7rawePX8s.lxml]
+[DEBUG]2018-04-27 21:14:10,074 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/平安附加智能星提前给付重大疾病保险（2017）_平安人寿[2017]疾病保险077号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/b7rawePX8s.lxml]
+[DEBUG]2018-04-27 21:14:10,569 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:496ms
+[DEBUG]2018-04-27 21:14:11,160 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [fr:0.2857155233548185, no:0.2857153612950678, en:0.28571310443058073, et:0.1428559804539789]
+[DEBUG]2018-04-27 21:14:11,223 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:11,223 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/国华华瑞国民终身重大疾病保险B款_国华人寿[2017]疾病保险030号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/M5hj5w7zse.lxml]
+[DEBUG]2018-04-27 21:14:11,223 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/国华华瑞国民终身重大疾病保险B款_国华人寿[2017]疾病保险030号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/M5hj5w7zse.lxml]
+[DEBUG]2018-04-27 21:14:11,916 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:693ms
+[DEBUG]2018-04-27 21:14:12,318 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:12,319 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/百年康赢一生团体终身重大疾病保险_百年人寿[2017]疾病保险046号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/gDtcZC7rTW.lxml]
+[DEBUG]2018-04-27 21:14:12,319 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/百年康赢一生团体终身重大疾病保险_百年人寿[2017]疾病保险046号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/gDtcZC7rTW.lxml]
+[DEBUG]2018-04-27 21:14:12,644 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:325ms
+[DEBUG]2018-04-27 21:14:13,085 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:13,086 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中银三星附加康满人生（专享版）重大疾病保险_中银三星人寿[2015]疾病保险116号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/EQcQpcru7q.lxml]
+[DEBUG]2018-04-27 21:14:13,086 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中银三星附加康满人生（专享版）重大疾病保险_中银三星人寿[2015]疾病保险116号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/EQcQpcru7q.lxml]
+[DEBUG]2018-04-27 21:14:13,381 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:295ms
+[DEBUG]2018-04-27 21:14:13,897 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [en:0.5714273778147995, fr:0.2857142295309255, no:0.14285650656735574]
+[DEBUG]2018-04-27 21:14:13,902 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:13,902 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中美联泰大都会人寿保险有限公司附加都会安泰提前给付长期重大疾病保险_中美联泰大都会[2016]疾病保险032号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/GxjU6U2EU8.lxml]
+[DEBUG]2018-04-27 21:14:13,903 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中美联泰大都会人寿保险有限公司附加都会安泰提前给付长期重大疾病保险_中美联泰大都会[2016]疾病保险032号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/GxjU6U2EU8.lxml]
+[DEBUG]2018-04-27 21:14:14,182 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:280ms
+[DEBUG]2018-04-27 21:14:14,204 Thread:( main) Method:(org.grobid.core.sax.PDF2XMLSaxHandler.modifyCharacter) FIXME: cannot apply modifier '`' to character 'n'
+[DEBUG]2018-04-27 21:14:14,205 Thread:( main) Method:(org.grobid.core.sax.PDF2XMLSaxHandler.modifyCharacter) FIXME: cannot apply modifier '`' to character 's'
+[DEBUG]2018-04-27 21:14:14,355 Thread:( main) Method:(org.grobid.core.sax.PDF2XMLSaxHandler.modifyCharacter) FIXME: cannot apply modifier '`' to character 'n'
+[DEBUG]2018-04-27 21:14:14,355 Thread:( main) Method:(org.grobid.core.sax.PDF2XMLSaxHandler.modifyCharacter) FIXME: cannot apply modifier '`' to character 's'
+[DEBUG]2018-04-27 21:14:14,758 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [zh-cn:0.9999960971660194]
+[DEBUG]2018-04-27 21:14:14,826 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:14,827 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中华怡萌少儿重大疾病保险_中华人寿[2018]疾病保险003号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/p53TjWSdpr.lxml]
+[DEBUG]2018-04-27 21:14:14,827 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/中华怡萌少儿重大疾病保险_中华人寿[2018]疾病保险003号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/p53TjWSdpr.lxml]
+[DEBUG]2018-04-27 21:14:14,942 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:116ms
+[DEBUG]2018-04-27 21:14:15,493 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [zh-cn:0.9999981580521623]
+[DEBUG]2018-04-27 21:14:15,499 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:15,499 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/光大永明附加吉瑞宝重大疾病保险_光大永明人寿[2017]疾病保险42号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/UAvuyKT46P.lxml]
+[DEBUG]2018-04-27 21:14:15,499 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/光大永明附加吉瑞宝重大疾病保险_光大永明人寿[2017]疾病保险42号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/UAvuyKT46P.lxml]
+[DEBUG]2018-04-27 21:14:16,093 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:594ms
+[DEBUG]2018-04-27 21:14:16,988 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [zh-cn:0.9999963381878112]
+[DEBUG]2018-04-27 21:14:17,769 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:17,769 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/工银安盛人寿附加御立方五号关爱版重大疾病保险_工银安盛人寿〔2017〕疾病保险042号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/wxTweDDvCV.lxml]
+[DEBUG]2018-04-27 21:14:17,769 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/工银安盛人寿附加御立方五号关爱版重大疾病保险_工银安盛人寿〔2017〕疾病保险042号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/wxTweDDvCV.lxml]
+[DEBUG]2018-04-27 21:14:18,509 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:740ms
+[DEBUG]2018-04-27 21:14:19,821 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:19,821 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/太平福禄康逸终身重大疾病保险_太平人寿[2017]疾病保险073号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/hhV3CpdeSc.lxml]
+[DEBUG]2018-04-27 21:14:19,822 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/太平福禄康逸终身重大疾病保险_太平人寿[2017]疾病保险073号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/hhV3CpdeSc.lxml]
+[DEBUG]2018-04-27 21:14:20,478 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:657ms
+[DEBUG]2018-04-27 21:14:22,097 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) start pdf2xml
+[DEBUG]2018-04-27 21:14:22,097 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) Executing command: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/招商信诺安享康健重大疾病保险_招商信诺[2018]疾病保险001号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/rM5NfQZaWT.lxml]
+[DEBUG]2018-04-27 21:14:22,097 Thread:( main) Method:(org.grobid.core.document.DocumentSource.processPdf2XmlThreadMode) Executing: [bash, -c, ulimit -Sv 6242304 && /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64/pdftoxml -blocks -noImageInline -fullFontName  -annotation  -outline  '/Users/vinci/lib/Papers/Input/招商信诺安享康健重大疾病保险_招商信诺[2018]疾病保险001号.pdf' /Users/vinci/lib/grobid_insurance/grobid-home/tmp/rM5NfQZaWT.lxml]
+[DEBUG]2018-04-27 21:14:22,664 Thread:( main) Method:(org.grobid.core.document.DocumentSource.pdf2xml) pdf2xml process finished. Time to process:567ms
+[DEBUG]2018-04-27 21:14:23,362 Thread:( main) Method:(org.grobid.core.lang.impl.CybozuLanguageDetector.detect) [zh-cn:0.9999975857878567]
+[WARN ]2018-04-27 21:32:30,675 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.getGrobidHomePathOrLoadFromClasspath) No Grobid property was provided. Attempting to find Grobid home in the current directory...
+[WARN ]2018-04-27 21:32:30,683 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[WARN ]2018-04-27 21:32:30,683 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) *** USING GROBID HOME: /Users/vinci/lib/grobid_insurance/grobid-home
+[WARN ]2018-04-27 21:32:30,684 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidHomeOrFail) ***************************************************************
+[DEBUG]2018-04-27 21:32:30,684 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.getNewInstance) synchronized getNewInstance
+[DEBUG]2018-04-27 21:32:30,684 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadGrobidPropertiesPath) loading grobid.properties
+[WARN ]2018-04-27 21:32:30,685 Thread:( main) Method:(org.grobid.core.main.GrobidHomeFinder.findGrobidPropertiesOrFail) Grobid property file location was not explicitly set via 'org.grobid.property' system variable, defaulting to: /Users/vinci/lib/grobid_insurance/grobid-home/config/grobid.properties
+[DEBUG]2018-04-27 21:32:30,693 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.checkProperties) Checking Properties
+[DEBUG]2018-04-27 21:32:30,694 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) loading pdf2xml path
+[DEBUG]2018-04-27 21:32:30,699 Thread:( main) Method:(org.grobid.core.utilities.GrobidProperties.loadPdf2XMLPath) pdf2xml home directory set to /Users/vinci/lib/grobid_insurance/grobid-home/pdf2xml/mac-64
+[INFO ]2018-04-27 21:32:30,701 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading external native CRF library
+[DEBUG]2018-04-27 21:32:30,702 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) /Users/vinci/lib/grobid_insurance/grobid-home/lib/mac-64
+[INFO ]2018-04-27 21:32:30,704 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Loading Wapiti native library...
+[INFO ]2018-04-27 21:32:30,706 Thread:( main) Method:(org.grobid.core.main.LibraryLoader.load) Library crfpp loaded
+[INFO ]2018-04-27 21:32:30,735 Thread:( main) Method:(org.grobid.trainer.AbstractTrainer.addFeaturesSegmentation) Processing: 百年康赢一生团体终身重大疾病保险_百年人寿[2017]疾病保险046号.training.segmentation.tei.xml
+[ERROR]2018-04-27 21:32:30,773 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: tei - it will be mapped to the label <other>
+[ERROR]2018-04-27 21:32:30,774 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: teiHeader - it will be mapped to the label <other>
+[ERROR]2018-04-27 21:32:30,775 Thread:( main) Method:(org.grobid.trainer.sax.TEISegmentationSaxParser.startElement) Invalid element name: fileDesc - it will be mapped to the label <other>
