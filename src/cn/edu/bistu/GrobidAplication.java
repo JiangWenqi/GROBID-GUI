@@ -1,4 +1,4 @@
-package org.grobid;
+package cn.edu.bistu;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -40,6 +40,8 @@ public class GrobidAplication extends Application {
             rootLayout = loader.load();
             // Show the scene containing the root layout
             Scene scene = new Scene(rootLayout);
+            // 加载CSS
+            scene.getStylesheets().add(getClass().getResource("view/grobid.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch (IOException e) {

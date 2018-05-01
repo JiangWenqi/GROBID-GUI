@@ -78,7 +78,7 @@ public class MPDL_METS_SaxParser extends DefaultHandler {
         return ids;
     }
 
-    public void endElement(String uri, String localName, String qName) throws SAXException {
+    public void endElement(java.lang.String uri, java.lang.String localName, java.lang.String qName) throws SAXException {
         if (qName.equals("mods:title")) {
             // we register in the DB the new entry
             mods_title = getText();

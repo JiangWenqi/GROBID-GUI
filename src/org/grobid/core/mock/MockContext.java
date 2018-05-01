@@ -1,4 +1,4 @@
-package org.grobid.core.mock;//package org.grobid.core.mock;
+//package org.grobid.core.mock;
 //
 //import java.io.File;
 //

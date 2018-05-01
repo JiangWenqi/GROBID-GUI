@@ -82,7 +82,7 @@ public class ReferenceExtractor implements Closeable {
     public OPSService ops = null;
     private String description = null;
 
-    public ArrayList<BibDataSet> resBib = null; // identified current parsed
+    public ArrayList<org.grobid.core.data.BibDataSet> resBib = null; // identified current parsed
     // bibliographical items and related information
 
     private String path = null;     // path where the patent file is stored

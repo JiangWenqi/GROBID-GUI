@@ -52,7 +52,7 @@ public class DateParser extends AbstractParser {
             //System.out.print(res.toString());
             StringTokenizer st2 = new StringTokenizer(res, "\n");
             String lastTag = null;
-            Date date = new Date();
+            org.grobid.core.data.Date date = new Date();
             int lineCount = 0;
             String currentMarker = null;
             while (st2.hasMoreTokens()) {

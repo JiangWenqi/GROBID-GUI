@@ -727,11 +727,11 @@ public class BiblioItem {
         return originalJournal;
     }
 
-    public List<Person> getFullAuthors() {
+    public List<org.grobid.core.data.Person> getFullAuthors() {
         return fullAuthors;
     }
 
-    public List<Person> getFullEditors() {
+    public List<org.grobid.core.data.Person> getFullEditors() {
         return fullEditors;
     }
 
@@ -940,11 +940,11 @@ public class BiblioItem {
         conf = b;
     }
 
-    public void setFullAuthors(List<Person> full) {
+    public void setFullAuthors(List<org.grobid.core.data.Person> full) {
         fullAuthors = full;
     }
 
-    public void setFullEditors(List<Person> full) {
+    public void setFullEditors(List<org.grobid.core.data.Person> full) {
         fullEditors = full;
     }
 

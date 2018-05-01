@@ -39,7 +39,7 @@ public class Affiliation {
     public Affiliation() {
     }
 
-    public Affiliation(Affiliation aff) {
+    public Affiliation(org.grobid.core.data.Affiliation aff) {
         acronym = aff.getAcronym();
         name = aff.getName();
         url = aff.getURL();

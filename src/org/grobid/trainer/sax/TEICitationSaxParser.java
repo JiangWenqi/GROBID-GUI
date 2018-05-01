@@ -65,9 +65,9 @@ public class TEICitationSaxParser extends DefaultHandler {
         return allTokens;
     }
 
-    public void endElement(String uri,
-                           String localName,
-                           String qName) throws SAXException {
+    public void endElement(java.lang.String uri,
+                           java.lang.String localName,
+                           java.lang.String qName) throws SAXException {
         qName = qName.toLowerCase();
 
         if ((qName.equals("author")) || (qName.equals("authors")) || (qName.equals("orgname")) ||

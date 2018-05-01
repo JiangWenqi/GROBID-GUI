@@ -3,6 +3,7 @@ package org.grobid.core.jni;
 import fr.limsi.wapiti.SWIGTYPE_p_mdl_t;
 import fr.limsi.wapiti.Wapiti;
 import org.grobid.core.GrobidModel;
+import org.grobid.core.GrobidModels;
 import org.grobid.core.exceptions.GrobidException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -65,7 +66,7 @@ public class WapitiModel {
 
     public static void train(File template, File trainingData, File outputModel, String params) {
 		String args = String.format("train " + params + " -p %s %s %s", template.getAbsolutePath(), trainingData.getAbsolutePath(), outputModel.getAbsolutePath());
-		System.out.println("Training with equivalent command line: \n" + "wapiti " + args);
+		//System.out.println("Training with equivalent command line: \n" + "wapiti " + args);
 		Wapiti.runWapiti(args);
     }
 

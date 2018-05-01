@@ -51,8 +51,8 @@ public class PDF2XMLAnnotationSaxHandler extends DefaultHandler {
 		return annotations;
 	}
 	
-	public void endElement(String uri, String localName,
-			String qName) throws SAXException {
+	public void endElement(java.lang.String uri, java.lang.String localName,
+			java.lang.String qName) throws SAXException {
 
 		if (qName.equals("ANNOTATION")) {
 			if (currentAnnotation != null) {

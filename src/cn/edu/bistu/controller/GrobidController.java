@@ -1,16 +1,17 @@
-package org.grobid.controller;
+package cn.edu.bistu.controller;
 
+import cn.edu.bistu.Chinese.MyGrobid;
+import cn.edu.bistu.GrobidAplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
-import org.grobid.GrobidAplication;
 import org.grobid.core.exceptions.GrobidResourceException;
 
 import java.io.File;
-
-import org.grobid.Chinese.MyGrobid;
 
 
 public class GrobidController {
@@ -36,7 +37,7 @@ public class GrobidController {
 //    public void initialize(URL location, Resources resources) {
 //    }
 
-
+    @FXML
     public void openFile(ActionEvent actionEvent) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setInitialDirectory(new File("."));

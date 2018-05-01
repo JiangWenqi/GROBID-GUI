@@ -40,7 +40,7 @@ public class WikiTextExtractSaxParser extends DefaultHandler {
     //static final String INSERT_PAGEDEF_SQL =
     //	"UPDATE wiki_page SET def = ? WHERE PageID=?";
 
-    public void endElement(String uri, String localName, String qName) throws SAXException {
+    public void endElement(java.lang.String uri, java.lang.String localName, java.lang.String qName) throws SAXException {
         if (qName.equals("text")) {
             textBegin = false;
 

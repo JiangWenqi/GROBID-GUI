@@ -41,9 +41,9 @@ public class TEIDateSaxParser extends DefaultHandler {
         return labeled;
     }
 
-    public void endElement(String uri,
-                           String localName,
-                           String qName) throws SAXException {
+    public void endElement(java.lang.String uri,
+                           java.lang.String localName,
+                           java.lang.String qName) throws SAXException {
         if (( (qName.equals("year")) | (qName.equals("month")) | (qName.equals("day"))) & (currentTag != null)) {
             String text = getText();
             writeField(text);

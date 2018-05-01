@@ -1,4 +1,5 @@
-package org.grobid.Chinese;
+package cn.edu.bistu.Chinese;
+
 
 import org.grobid.core.data.BiblioItem;
 import org.grobid.core.engines.Engine;
@@ -8,6 +9,11 @@ import org.grobid.core.utilities.GrobidProperties;
 
 import java.util.Arrays;
 
+/**
+ * MyGrobid 调用
+ *
+ * @author Vinci
+ */
 public class MyGrobid {
     private static Engine engine;
 
@@ -65,7 +71,6 @@ public class MyGrobid {
 //          System.out.println(tei);
 
         } catch (Exception e) {
-            // If an exception is generated, print a stack trace
             e.printStackTrace();
         }
         return tei;
@@ -82,6 +87,7 @@ public class MyGrobid {
 
 
     public static void main(String[] args) {
+        new MyGrobid();
 //        MyGrobid.runGrobid();
         runGrobid("/Users/vinci/lib/Papers/Input/CAR001.pdf");
 //		runGrobid("/Users/vinci/lib/保险文档/中宏附加康健逸生重大疾病保险_中宏人寿[2017]疾病保险010号.pdf");

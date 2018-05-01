@@ -246,7 +246,7 @@ public class AffiliationAddressParser extends AbstractParser {
 
             StringTokenizer st2 = new StringTokenizer(result, "\n");
             String lastTag = null;
-            Affiliation aff = new Affiliation();
+            org.grobid.core.data.Affiliation aff = new Affiliation();
             int lineCount = 0;
             boolean hasInstitution;
             boolean hasDepartment = false;

@@ -36,9 +36,9 @@ public class CrossrefSaxParser extends DefaultHandler {
         return text.toString().trim();
     }
 
-    public void endElement(String uri,
-                           String localName,
-                           String qName) throws SAXException {
+    public void endElement(java.lang.String uri,
+                           java.lang.String localName,
+                           java.lang.String qName) throws SAXException {
         System.out.println(qName);
         if (qName.equals("article_title")) {
             biblio.setArticleTitle(getText());

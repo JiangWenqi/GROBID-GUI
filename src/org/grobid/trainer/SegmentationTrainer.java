@@ -199,7 +199,6 @@ FileUtils.writeStringToFile(new File("/tmp/expected-"+name+".txt"), temp.toStrin
                         }
                     }
                     bis.close();
-                    // TODO 原来是10
                     if (nbInvalid < 10) {
                         if ((writer2 == null) && (writer3 != null))
                             writer3.write(segmentation.toString() + "\n");

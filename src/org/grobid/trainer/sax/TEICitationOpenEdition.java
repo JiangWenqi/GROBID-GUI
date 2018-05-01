@@ -39,9 +39,9 @@ public class TEICitationOpenEdition extends DefaultHandler {
         return accumulator.toString();
     }
 
-	public void endElement(String uri,
-                           String localName,
-                           String qName) throws SAXException {
+	public void endElement(java.lang.String uri,
+                           java.lang.String localName,
+                           java.lang.String qName) throws SAXException {
 		String text = getText();
         if (text.length() > 0) {
             buffer.append(text);

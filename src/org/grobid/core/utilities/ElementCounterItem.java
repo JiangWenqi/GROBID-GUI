@@ -22,7 +22,7 @@ public class ElementCounterItem<T> {
         return item;
     }
 
-    public Integer getCnt() {
+    public java.lang.Integer getCnt() {
         return cnt;
     }
 }

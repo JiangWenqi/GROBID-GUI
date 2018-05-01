@@ -162,7 +162,7 @@ public class UnicodeUtil {
 
     /**
      * Unicode normalisation of the token text.
-     * Works as the {@link UnicodeUtil#normaliseText(String)}, but in addition also removes spaces
+     * Works as the {@link org.grobid.core.utilities.UnicodeUtil#normaliseText(java.lang.String)}, but in addition also removes spaces
      * @param text to be normalised
      * @return normalised string, legible for Wapiti feature generation
      */

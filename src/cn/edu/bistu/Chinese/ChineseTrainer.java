@@ -1,16 +1,11 @@
-package org.grobid.Chinese;
+package cn.edu.bistu.Chinese;
 
-import java.io.FileInputStream;
-import java.util.Arrays;
-import java.util.Properties;
-
-import org.grobid.core.*;
-import org.grobid.core.data.*;
-import org.grobid.core.factory.*;
-import org.grobid.core.main.*;
-import org.grobid.core.utilities.*;
-import org.grobid.trainer.*;
 import org.grobid.core.engines.Engine;
+import org.grobid.core.factory.GrobidFactory;
+import org.grobid.core.main.GrobidHomeFinder;
+import org.grobid.core.utilities.GrobidProperties;
+
+import java.util.Arrays;
 
 /**
  * @author Vinci

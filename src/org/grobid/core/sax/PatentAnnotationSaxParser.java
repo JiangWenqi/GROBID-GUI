@@ -158,9 +158,9 @@ public class PatentAnnotationSaxParser extends DefaultHandler {
 		return text;
     }
 
-    public void endElement(String uri,
-    					   String localName,
-    					   String qName) throws SAXException {
+    public void endElement(java.lang.String uri, 
+    					   java.lang.String localName, 
+    					   java.lang.String qName) throws SAXException {
 		
 		
 		try {

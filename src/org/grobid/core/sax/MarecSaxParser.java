@@ -113,9 +113,9 @@ public class MarecSaxParser extends DefaultHandler {
         referencesPatent.put(name, new ArrayList<String>());
     }
 
-    public void endElement(String uri,
-                           String localName,
-                           String qName) throws SAXException {
+    public void endElement(java.lang.String uri,
+                           java.lang.String localName,
+                           java.lang.String qName) throws SAXException {
         if (qName.equals("date")) {
             accumulator.setLength(0);
         } 

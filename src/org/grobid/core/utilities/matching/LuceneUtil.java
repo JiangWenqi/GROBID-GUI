@@ -43,7 +43,7 @@ public class LuceneUtil {
      * @param analyzer the Analyzer to use
      * @param reader   the reader to feed to the Analyzer
      * @return a List of tokens
-     * @throws IOException lucene exceptions
+     * @throws java.io.IOException lucene exceptions
      */
     private static List<String> readerToTokens(final Analyzer analyzer,
                                                final Reader reader) throws IOException {

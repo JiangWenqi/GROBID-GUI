@@ -107,7 +107,7 @@ public class AuthorParser {
             String res = tagger.label(sequence);
 //System.out.println(res);
             TaggingTokenClusteror clusteror = new TaggingTokenClusteror(head ? GrobidModels.NAMES_HEADER : GrobidModels.NAMES_CITATION, res, tokens);
-            Person aut = new Person();
+            org.grobid.core.data.Person aut = new Person();
             boolean newMarker = false;
             String currentMarker = null;
             List<TaggingTokenCluster> clusters = clusteror.cluster();
